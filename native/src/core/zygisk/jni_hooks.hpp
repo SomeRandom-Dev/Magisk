@@ -197,7 +197,7 @@ std::array nativeForkAndSpecialize_methods = {
     },
     JNINativeMethod {
         "nativeForkAndSpecialize",
-        "(II[II[[IILjava/lang/String;Ljava/lang/String;[I[IZLjava/lang/String;Ljava/lang/String;Z[Ljava/lang/String;[Ljava/lang/String;ZZ[J)I",
+        "(II[II[[IILjava/lang/String;Ljava/lang/String;[I[IZLjava/lang/String;Ljava/lang/String;Z[Ljava/lang/String;[Ljava/lang/String;ZZZ[J)I",
         (void *) &nativeForkAndSpecialize_grapheneos_u
     },
 };
@@ -309,7 +309,7 @@ std::array nativeSpecializeAppProcess_methods = {
     },
     JNINativeMethod {
         "nativeSpecializeAppProcess",
-        "(II[II[[IILjava/lang/String;Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Z[Ljava/lang/String;[Ljava/lang/String;ZZ[J)V",
+        "(II[II[[IILjava/lang/String;Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Z[Ljava/lang/String;[Ljava/lang/String;ZZZ[J)V",
         (void *) &nativeSpecializeAppProcess_grapheneos_u
     },
 };
